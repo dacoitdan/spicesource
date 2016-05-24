@@ -1,0 +1,100 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+p{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+div{
+	padding: 0px;
+	margin: 0px;
+}
+
+h2{
+	padding: 0px;
+	margin: 0px;
+}
+
+#pricequote{
+	font-size: 20px;
+	text-align: center;
+}
+
+.main{
+	width: 100%;
+	position: relative;
+	flex: 1 0 auto;
+}
+
+.footer{
+	position: relative;
+	width: 100%;
+	background: #A1D490
+}
+
+.tri{
+	width: 33%;
+	float: left;
+}
+
+.tricolumn{
+	padding: 5px;
+}
+
+.prices {
+	width: 100%;
+}
+
+.maincontent {
+	display: flex;
+	width: 50%;
+	float: left;
+	margin-top: 25px;
+}
+
+.sidebar {
+	display: flex;
+	width: 25%;
+	float: left;
+	margin-top: 25px;
+}
+
+.content{
+	margin-left: 25%;
+}
+
+.side{
+	margin-right: 200px;
+}
+
+.header {
+	position: relative;
+    width: 100%;
+    top: 0px;
+    background: #A1D490;
+}
+
+.headerlinks {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background: #A1D490;
+}
+
+.banner {
+	width: 100%;
+	height: 300px;
+	background-image: url("https://66.media.tumblr.com/044c6e07834d85208f6fefcaa673575d/tumblr_o7i5lwBDBI1t5bx95o4_400.png");
+}
+
+.bannertext {
+	position: relative;
+	left: 50px;
+	top: 75px;
+}
